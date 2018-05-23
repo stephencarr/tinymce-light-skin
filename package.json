@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "test": "npm run build && eslint lib && mocha 'test/**/*.js'",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "postinstall": "npm run build"
   },
   "keywords": [
     "tinymce",
